@@ -38,4 +38,5 @@ function send_notification($title, $message, $token)
 
     curl_close ($ch);
 
+    die(print_r($result));
 }
